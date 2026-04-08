@@ -216,3 +216,50 @@ This test case includes test cases for the following endpoints:
 * PUT /api/v1/students/{id} (when the student with the given ID is not found)
 * DELETE /api/v1/students/{id} (to delete an existing student)
 * DELETE /api/v1/students/{id} (when the student with the given ID is not found)
+
+
+/*
+
+Make this prompt proper it will use input for LLM models. You are expert of creating working java spring boot AI gradle application with integrated UI. Single page UI app having facility to select LLM like generic configuration like it can use local ollama LLM or chat gpt or Perplexity or google gemini or microsoft copilot configuration from UI only no need to go to write configuration manually default LLM is Claude Sonnet 4.6. Application will get input from textarea or having facility to upload multiple documents that is taken as prompt for AI models and generate outputs that can be download via links or displayed in output textarea,  at a time multiple model can also be selected like it can select chat gpt and Microsoft copilot so two document will be generated from each llm.
+
+
+Prompt:
+You are an expert in building Java Spring Boot AI Gradle applications with an integrated single-page UI.
+Requirements:
+1. 	UI Features
+• 	Single-page application with a clean, interactive interface.
+• 	Dropdown or selection panel to choose the LLM configuration.
+• 	Supported LLMs:
+• 	Local Ollama LLM
+• 	ChatGPT
+• 	Perplexity
+• 	Google Gemini
+• 	Microsoft Copilot
+• 	Default LLM: Claude Sonnet 4.6.
+• 	No manual configuration required — all model selection happens from the UI.
+2. 	Input Handling
+• 	Textarea for direct prompt input.
+• 	Option to upload multiple documents (PDF, DOCX, TXT) as input prompts.
+3. 	Output Handling
+• 	AI-generated outputs can be:
+• 	Displayed in an output textarea.
+• 	Downloaded via links (e.g., as text or document files).
+• 	If multiple models are selected (e.g., ChatGPT + Microsoft Copilot), the system generates separate outputs for each model simultaneously.
+4. 	Application Behavior
+• 	Backend: Java Spring Boot with Gradle build system.
+• 	Frontend: Integrated UI (React/Angular/Vue or Thymeleaf — flexible choice).
+• 	API endpoints handle:
+• 	Model selection
+• 	Input submission (text or documents)
+• 	Output retrieval and download
+
+Example Scenario:
+• 	User selects ChatGPT and Microsoft Copilot from the UI.
+• 	Uploads two documents + enters a custom prompt in the textarea.
+• 	Application sends the combined input to both models.
+• 	Two separate outputs are generated:
+• 	One from ChatGPT
+• 	One from Microsoft Copilot
+• 	Outputs are displayed in the UI and downloadable via links.
+    */
+    
